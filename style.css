@@ -80,10 +80,10 @@ section{
 
 .works{
     border-image: none;
-    width: 30%;
+    width: 20%;
     float: left;
-    margin: 1px;
-    padding-left: 1%;
+    margin: auto;
+    padding-left: 10%;
     padding-right: 1%; 
 }
 
