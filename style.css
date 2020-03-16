@@ -1,20 +1,38 @@
 body{
     margin: 0;
     font-family: 'Oswald', sans-serif;
-
 }
 
 h1{
     font-size: 50px;
-
 }
 h2{
     font-size: 40px;
     text-align: center;
+    padding-bottom: 50px;
+}
+
+h3{
+    font-size: 20px;
+    text-align: center;    
+}
+
+h4{
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+    padding-bottom: 40px;
 }
 p{
-    color: dimgray;
+    color:black;
     text-align: justify;
+}
+
+.quote{
+    color:black;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 100px;
 }
 .orange-highlight{
     color: orange;
@@ -26,7 +44,6 @@ p{
     margin: auto;
     padding-left: 2%;
     padding-right: 2%;
-
 }
 
 .header_bg{
@@ -38,11 +55,9 @@ p{
 .latest_work{
     
     background-image: url(images/latest-work-bg.png);
-    background-size: 30%;
     background-repeat: no-repeat;
-    background-position-x: right;
-    
-    
+    background-position: right;
+    background-size: 150%;
 }
 section{
     height: 800px;
@@ -61,27 +76,49 @@ section{
     background-image: url(images/biography-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 .works{
     border-image: none;
-    width: 23%;
+    width: 30%;
     float: left;
-    margin: auto;
-    padding-left: 5%;
-    padding-right: 5%;
-
+    margin: 1px;
+    padding-left: 1%;
+    padding-right: 1%; 
 }
 
 .works img{
-    width: 100%;
+    width: 100%;   
 }
-
-
-footer{
+#b1{
+    color:white;
     text-align: center;
-    font-size: 14px;
-    padding-bottom: 2%;
-
+    font-size: 20px;
 }
+
+.box{
+    border: 10px solid palevioletred;
+    text-align: center;
+    height: 100px;
+    width: 600px;
+    margin: auto;
+    background-color: palevioletred;
+    border-radius: 8px;
+}
+
+.footer-bg{
+    background-image: url(images/footer-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#foot{
+    padding-top: 7%;
+    color: gray;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+
+
+
