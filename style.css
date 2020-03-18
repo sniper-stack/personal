@@ -74,7 +74,6 @@ section{
 }
 .biography{
     background-image: url(images/biography-bg.png);
-    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -111,7 +110,6 @@ section{
 
 .footer-bg{
     background-image: url(images/footer-bg.png);
-    background-position: left;
     background-repeat: no-repeat;
 }
 
