@@ -42,8 +42,8 @@ p{
     width: 40%;
     float: left;
     margin: auto;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .header_bg{
@@ -61,7 +61,7 @@ p{
 }
 section{
     height: 800px;
-    padding-bottom: 250px;
+    padding-bottom: 220px;
     
 }
 .link-button{
@@ -110,6 +110,7 @@ section{
 
 .footer-bg{
     background-image: url(images/footer-bg.png);
+    background-position: left;
     background-repeat: no-repeat;
 }
 
